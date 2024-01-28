@@ -1,0 +1,27 @@
+{
+  "name": "gym-pass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "lint": "eslint --fix ./**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "dotenv": "16.4.1",
+    "fastify": "^4.25.2",
+    "zod": "3.22.4"
+  }
+}
